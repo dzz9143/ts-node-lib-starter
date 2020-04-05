@@ -5,14 +5,14 @@ module.exports = {
         }
     },
     moduleFileExtensions: [
-        "js",
         "ts",
+        "js",
     ],
     transform: {
         "^.+\\.ts$": "ts-jest",
     },
     testMatch: [
-        "**/test/**/*.test.ts"
+        "**/test/**/*.test.(ts|js)"
     ],
     testEnvironment: "node"
 };

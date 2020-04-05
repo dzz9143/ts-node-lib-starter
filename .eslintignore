@@ -1,4 +1,5 @@
 lib/*
+example/*
 coverage/*
 # data definition files
 **/*.d.ts

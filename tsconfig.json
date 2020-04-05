@@ -1,26 +1,22 @@
 {
     "compilerOptions": {
+        "baseUrl": ".",
         "module": "commonjs",
         "moduleResolution": "node",
         "outDir": "lib",
         "target": "es6",
-        "lib": ["es2017"],
         "sourceMap": true,
         "allowJs": false,
         "forceConsistentCasingInFileNames": true,
         "noImplicitAny": true,
-        "noImplicitReturns": true,
-        "noImplicitThis": true,
-        "noUnusedLocals": true,
         "esModuleInterop": true,
-        "allowSyntheticDefaultImports": true,
         "declaration": true,
+        "declarationMap": true,
         "resolveJsonModule": true,
-        "baseUrl": ".",
         "paths": {
             "*": [
                 "node_modules/*",
-                "src/typings/*"
+                "src/types/*"
             ]
         }
     },
